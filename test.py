@@ -1,7 +1,6 @@
 import requests
 
 
-
 def get_req(url):
     r = requests.get(url).text
     print(r)
